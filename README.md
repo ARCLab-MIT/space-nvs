@@ -19,12 +19,14 @@ Our method addresses the lack of domain-specific 3D reconstruction tools in the 
 
 ### Dataset
 
-For data, 190 spacecraft 3D models from National Aeronautics and Space Administration (NASA), European Space Agency (ESA), and Synthetic Dataset for Satellites (SPE3R) datasets were used. Using the provided Blender file,  extract camera angles and json file using a data format required by Zero123 (https://github.com/cvlab-columbia/zero123).
+For data, 190 spacecraft 3D models from National Aeronautics and Space Administration (NASA), European Space Agency (ESA), and Synthetic Dataset for Satellites (SPE3R) datasets were used.
+
+To process the data, change the data directories in `dataset_toolkit/zero123_subprocess.py` and run the file. This can be done in a separate terminal window and run in background without disrupting other processes. Once the data has been processed and added to the new data directory, run `dataset_toolkit/json_to_npy.py` to convert the json file with camera transform matrices to a numpy file for each image instead. The final dataset should contain folders, each of which contains 48 views of a 3D object with the corresponding numpy matrix. This matches the format required by Zero123-XL (https://github.com/cvlab-columbia/zero123).
 
 
 ### Installation/Dependencies
 
-Copy the data over to the GPU server. Clone the zero123 repository and upload the Zero123XL checkpoint. Make sure to update simple.py file to adjust train/validation split.
+Copy the data over to the GPU server. Clone the zero123 repository and upload the Zero123XL checkpoint. Make sure to update simple.py file to adjust train/validation split. Detailed instructions on changes made to the repository are included in [changes.md](changes.md).
 Run the finetuning (download missing packages if prompted) and save the finetuned model
 python main.py \
     -t \
@@ -36,6 +38,7 @@ python main.py \
     --check_val_every_n_epoch 10 \
     --finetune_from zero123-xl.ckpt
 
+If there are GPU memory issues during finetuning, try looking for `fit_loop.py` in the pytorch-lightning module and adding `torch.cuda.empty_cache()` in the function `current_epoch`.
 
 Clone the DreamGaussian repository (https://github.com/dreamgaussian/dreamgaussian). Then, upload  checkpoint and config files and adjust model paths in main.py, main2.py, and any other files needed to use the finetuned model instead of the original Zero123XL
 
