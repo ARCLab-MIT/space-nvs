@@ -8,3 +8,4 @@ tqdm
 Pillow
 scikit-image
 matplotlib
+fast-simplification
