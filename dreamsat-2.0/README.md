@@ -7,7 +7,7 @@
 To enhance asteroid exploration and autonomous spacecraft navigation, we introduce DreamSat-2.0, a pipeline that benchmarks three state-of-the-art 3D reconstruction models—Hunyuan-3D, Trellis-3D, and Ouroboros-3D—on custom
 spacecraft and asteroid datasets. Our systematic analysis, using 2D perceptual (image quality) and 3D geometric (shape accuracy) metrics, reveals that model performance is domain-dependent. While models produce higher-quality images of complex spacecraft, they achieve better geometric reconstructions for the simpler forms of asteroids. New benchmarks are established, with Hunyuan-3D achieving top perceptual scores on spacecraft but its best geometric accuracy on asteroids, marking a significant advance over our prior work.
 
-```
+
 | Spacecraft                  | Input                     | Generated Novel Views         |
 |-----------------------------|---------------------------|-------------------------------|
 | Explorer 1                  | ![Spacecraft 1](explorer1.png) | <img src="explorer1.gif" width="256" height="256" alt="Generated View 1"> |
@@ -79,4 +79,4 @@ Research was sponsored by the Department of the Air Force Artificial Intelligenc
 
 The authors acknowledge the MIT SuperCloud for providing HPC resources that have contributed to the research results reported within this paper.
 
-H.U. wishes to acknowledge support through the research grant TED2021-132099B-C32 funded by MCIN/AEI/10.13039/501100011033 and the ``European Union NextGenerationEU/PRTR''.```
+H.U. wishes to acknowledge support through the research grant TED2021-132099B-C32 funded by MCIN/AEI/10.13039/501100011033 and the ``European Union NextGenerationEU/PRTR''.
