@@ -8,11 +8,11 @@ To enhance asteroid exploration and autonomous spacecraft navigation, we introdu
 spacecraft and asteroid datasets. Our systematic analysis, using 2D perceptual (image quality) and 3D geometric (shape accuracy) metrics, reveals that model performance is domain-dependent. While models produce higher-quality images of complex spacecraft, they achieve better geometric reconstructions for the simpler forms of asteroids. New benchmarks are established, with Hunyuan-3D achieving top perceptual scores on spacecraft but its best geometric accuracy on asteroids, marking a significant advance over our prior work.
 
 
-| Spacecraft                  | Input                     | Generated Novel Views         |
+| Model                       | Input                     | Generated Novel Views         |
 |-----------------------------|---------------------------|-------------------------------|
-| Explorer 1                  | ![Spacecraft 1](explorer1.png) | <img src="explorer1.gif" width="256" height="256" alt="Generated View 1"> |
-| Apollo Lunar Module         | ![Spacecraft 1](lunarlandernofoil-carbajal.png) | <img src="lunarlandernofoil-carbajal.gif" width="256" height="256" alt="Generated View 2"> |
-| Space Launch System Block 1 | ![Spacecraft 1](sls_block1.png) | <img src="sls_block1.gif" width="256" height="256" alt="Generated View 3"> |
+| Trellis-3D                  | ![Spacecraft 1](explorer1.png) | <img src="explorer1.gif" width="256" height="256" alt="Generated View 1"> |
+| Ourobors-3D                 | ![Spacecraft 1](lunarlandernofoil-carbajal.png) | <img src="lunarlandernofoil-carbajal.gif" width="256" height="256" alt="Generated View 2"> |
+| Hunyuan-3D                  |                  ![Spacecraft 1](sls_block1.png) | <img src="sls_block1.gif" width="256" height="256" alt="Generated View 3"> |
 
 ### Dataset
 
