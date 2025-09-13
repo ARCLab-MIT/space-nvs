@@ -23,7 +23,7 @@ We evaluate DreamSat-2.0 on two curated 3D model collections: (1) a spacecraft s
 
 ### Installation/Dependencies
 
-Steps on how to run these models are in their repective forlders i.e: instructions on how to run ourobros are in the ouroboros folder. For metrics, you can use te the all_mtrics.py file under the project folder. 
+Steps on how to run these models are in their repective forlders i.e: instructions on how to run ourobros are in the ouroboros folder. For metrics, you can use te the `all_metrics.py` file under the project folder. 
 
 ## Citing
 
