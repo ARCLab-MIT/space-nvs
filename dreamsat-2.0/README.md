@@ -13,9 +13,8 @@ spacecraft and asteroid datasets. Our systematic analysis, using 2D perceptual (
 | Trellis-3D                 | <img src="images/sat_78.png" width="256" height="256" alt="Spacecraft 1">   | <img src="images/trellis_sat_78.gif" width="256" height="256" alt="View 1">   |
 | Ouroboros-3D               | <img src="images/sat_130.png" width="256" height="256" alt="Spacecraft 2">  | <img src="images/ouroboros_sat_130.gif" width="256" height="256" alt="View 2">|
 | Hunyuan-3D                 | <img src="images/sat_11.png" width="256" height="256" alt="Spacecraft 3">   | <img src="images/hunyuan_sat_11.gif" width="256" height="256" alt="View 3">   |
-| Trellis-3D                 | <img src="images/sat_78.png" width="256" height="256" alt="Astreoid 1">   | <img src="images/trellis_sat_78.gif" width="256" height="256" alt="View 4">   |
-| Ouroboros-3D               | <img src="images/sat_130.png" width="256" height="256" alt="Asteroid 2">  | <img src="images/ouroboros_sat_130.gif" width="256" height="256" alt="View 5">|
-| Hunyuan-3D                 | <img src="images/sat_11.png" width="256" height="256" alt="Asteroid 3">   | <img src="images/hunyuan_sat_11.gif" width="256" height="256" alt="View 6">   |
+| Ouroboros-3D               | <img src="images/ast_1.png" width="256" height="256" alt="Asteroid 2">  | <img src="images/ouroboros_ast_1.gif" width="256" height="256" alt="View 5">|
+| Hunyuan-3D                 | <img src="images/ast_26.png" width="256" height="256" alt="Asteroid 3">   | <img src="images/hunyuan_ast26.gif" width="256" height="256" alt="View 6">   |
 ### Dataset
 
 For data, 190 spacecraft 3D models from National Aeronautics and Space Administration (NASA), European Space Agency (ESA), and Synthetic Dataset for Satellites (SPE3R) datasets were used.
