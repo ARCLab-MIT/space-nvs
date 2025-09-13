@@ -10,9 +10,9 @@ spacecraft and asteroid datasets. Our systematic analysis, using 2D perceptual (
 
 | Model                       | Input                     | Generated Novel Views         |
 |-----------------------------|---------------------------|-------------------------------|
-| Trellis-3D                  | ![Spacecraft 1](explorer1.png) | <img src="explorer1.gif" width="256" height="256" alt="Generated View 1"> |
-| Ourobors-3D                 | ![Spacecraft 1](lunarlandernofoil-carbajal.png) | <img src="lunarlandernofoil-carbajal.gif" width="256" height="256" alt="Generated View 2"> |
-| Hunyuan-3D                  | ![Spacecraft 1](images/sat_11.png) | <img src="images/hunyuan_sat_11.gif" width="256" height="256" alt="Generated View 3"> |
+| Trellis-3D                  | ![Spacecraft 1](images/sat_78.png) | <img src="images/trellis_sat_78.gif" width="256" height="256" alt="Generated View 1"> |
+| Ourobors-3D                 | ![Spacecraft 1](images/sat_130.png) | <img src="images/ouroboros_sat_130.gif" width="256" height="256" alt="Generated View 2"> |
+| Hunyuan-3D                  | ![Spacecraft 1](images/sat_11.png) | <img src="images/images/hunyuan_sat_11.gif" width="256" height="256" alt="Generated View 3"> |
 
 ### Dataset
 
