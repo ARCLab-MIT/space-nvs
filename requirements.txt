@@ -1,0 +1,11 @@
+numpy
+trimesh
+pyrender
+torch
+lpips
+opencv-python
+tqdm
+Pillow
+scikit-image
+matplotlib
+fast-simplification
