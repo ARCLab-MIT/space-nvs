@@ -1,6 +1,9 @@
 # Data Generation for FoundationPose
 
-Given an .obj file, run ```foundation_pose_data.py``` to generate rgb, depth, and segementation masks for the target object, as well as metadata.
+* Given an .obj file, run ```foundation_pose_data.py``` to generate rgb, depth, and segementation masks for the target object, as well as metadata.
+* ```moving_cam.py```: gathers images of an object by moving the camera around, one can modify the path the camera takes
+* ```moving_obj.py```: gathers images of an object by moving the camera and object around, one can modify the paths 
+* ```debug.py```: ignore 
 
 ## FoundationPose Steps
 
