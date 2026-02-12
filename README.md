@@ -23,8 +23,7 @@ We evaluate DreamSat-2.0 on two curated 3D model collections: (1) a spacecraft s
 
 ### Installation/Dependencies
 
-Steps on how to run these models are in their respective folders under the folder dreamsat-2.0 i.e: instructions on how to run ourobros are in the ouroboros folder. For metrics, you can use the files in the Metrics folder, we calculate both 2D based and 3D based metrics. 
-
+Steps on how to run these models are in their respective folders i.e: instructions on how to run ourobros are in the ouroboros folder. Hunyuan 3D-2 can be installed dirrectly from their [repository](https://github.com/Tencent-Hunyuan/Hunyuan3D-2) use the Hunyuan3D-DiT-v2-1 model. For metrics, you can use the `all_metrics.py` file under the main project folder. 
 ## Citing
 
 If you find this project research useful, please cite our work:
